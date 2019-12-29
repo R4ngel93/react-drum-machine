@@ -1,0 +1,31 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+/* Variables */
+:root{
+  --dark: #292b2c 
+}
+/* Background */
+*{
+  background-color: var(--dark) ;
+}
+
+/* Header */
+#header-id{
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Display */
+#display{
+  font-family: 'Courier Prime', monospace;
+  width: 9rem;
+}
+
+/* Drum pad */
+.drum-pad{
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+}
